@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC College Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">ABC College Book Store</div>
+    <nav>
+        <a onclick="showHome()">Home</a>
+        <a onclick="showLogin()">Login</a>
+        <a onclick="showCatalogue()">Catalogue</a>
+        <a onclick="showCart()">Cart (<span id="cartCount">0</span>)</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <aside>
+        <h3>Departments</h3>
+        <ul>
+            <li onclick="loadDepartment('CSBS')">CSBS</li>
+            <li onclick="loadDepartment('CSE')">CSE</li>
+            <li onclick="loadDepartment('ECE')">ECE</li>
+            <li onclick="loadDepartment('CIVIL')">CIVIL</li>
+        </ul>
+    </aside>
+
+    <main id="content"></main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

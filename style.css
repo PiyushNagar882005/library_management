@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #232f3e;
+}
+
+/* HEADER */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0073bb;
+}
+
+nav a {
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #232f3e;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #66a0c4;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    padding: 20px 40px;
+}
+
+/* SIDEBAR */
+aside {
+    width: 220px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    padding: 8px 0;
+    cursor: pointer;
+    color: #0073bb;
+}
+
+aside li:hover {
+    font-weight: bold;
+}
+
+/* MAIN CONTENT */
+main {
+    flex: 1;
+    margin-left: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* BUTTON */
+button {
+    background-color: #0073bb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+/* INPUT */
+input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+/* CART ITEMS */
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Danger Button */
+.danger-btn {
+    background-color: #e74c3c;
+    margin-left: 10px;
+}
+
+.danger-btn:hover {
+    background-color: #c0392b;
+}
